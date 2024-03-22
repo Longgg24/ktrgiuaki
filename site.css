@@ -1,0 +1,67 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Product styles */
+.product {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+}
+
+.product h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.product img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  width: 100px; /* Đặt kích thước chiều rộng mong muốn */
+  height: 100px; /* Đặt kích thước chiều cao mong muốn */
+  object-fit: cover; /* Có thể sử dụng 'cover', 'contain', 'fill' hoặc các giá trị khác tùy thuộc vào yêu cầu thiết kế */
+  border-radius: 5px; /* Để làm tròn góc */
+}
+
+.product p {
+  margin-bottom: 5px;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+  .product {
+      width: 100%;
+  }
+}
